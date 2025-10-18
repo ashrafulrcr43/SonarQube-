@@ -1,4 +1,5 @@
-# install sobarquabe 
+# install sobarquabe dockercompose file  
+apt  install docker-compose 
 <pre>
   ## install Docker 
   
@@ -7,6 +8,11 @@ sudo apt-get install docker.io -y
 sudo usermod -aG docker $USER && newgrp docker
   
 </pre>
+# install docker compose 
+<pre>
+  apt  install docker-compose 
+</pre>
+
 # sonarquabe yml  file
 <pre>
   version: "3"
@@ -41,4 +47,9 @@ volumes:
   sonarqube_logs:
   postgresql:
   postgresql_data:
+</pre>
+# Run docker compose comment 
+<pre>
+  docker-compose up -d
+  
 </pre>
