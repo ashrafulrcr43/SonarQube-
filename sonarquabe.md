@@ -53,3 +53,7 @@ volumes:
   docker-compose up -d
   
 </pre>
+# check browser 
+http://18.184.48.54:9000/
+## login using admin and admin
+
