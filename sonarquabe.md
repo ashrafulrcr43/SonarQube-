@@ -13,7 +13,7 @@ sudo usermod -aG docker $USER && newgrp docker
   apt  install docker-compose 
 </pre>
 
-# sonarquabe yml  file
+# docker-compose yml  file
 <pre>
   version: "3"
 services:
